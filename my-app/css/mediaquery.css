@@ -1,0 +1,40 @@
+@media screen and (max-width: 900px) {
+  .business {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .business-card {
+    width: 90%;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-content a {
+    font-size: 1rem;
+  }
+
+  .toggle-btn {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .second-nav-links {
+    display: none;
+  }
+
+  .serach-icon {
+    order: -1;
+  }
+}
